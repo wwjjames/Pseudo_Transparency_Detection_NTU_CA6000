@@ -116,13 +116,13 @@ st.markdown("Upload a picture，and examine if it is a Fake Transparent Image ")
 st.sidebar.header("Select a model")
 
 model_options = {
-    "Baseline (3-Layer, 500+500)": {"path": "models/500_3depth(baseline).pth", "arch": "3-Layer"},
-    "2-Layer (500+500)":           {"path": "models/500_2depth.pth", "arch": "2-Layer"},
-    "4-Layer (500+500)":           {"path": "models/500_4depth.pth", "arch": "4-Layer"},
-    "SmallData (3-Layer)":      {"path": "models/100_3depth.pth", "arch": "3-Layer"},
-    "SmallData+25Epoch (3-Layer)":  {"path": "models/100_3depth_25epochs.pth", "arch": "3-Layer"},
-    "SmallData+Aug+25Epoch (3-Layer)":  {"path": "models/100_3depth_25epochs(A).pth", "arch": "3-Layer"},
-    "SmallData+Aug+40Epoch (3-Layer)":  {"path": "models/100_3depth_40epochs(A).pth", "arch": "3-Layer"},
+    "3-Layer CNN trained by dataset 400+400 (baseline)": {"path": "models/400_3depth(baseline).pth", "arch": "3-Layer"},
+    "2-Layer CNN trained by dataset 400+400 ":           {"path": "models/400_2depth.pth", "arch": "2-Layer"},
+    "4-Layer CNN trained by dataset 400+400 ":           {"path": "models/400_4depth.pth", "arch": "4-Layer"},
+    "SmallData (3-Layer CNN trained by dataset 100+100)":      {"path": "models/100_3depth.pth", "arch": "3-Layer"},
+    "SmallData+25Epoch (3-Layer CNN trained by dataset 100+100)":  {"path": "models/100_3depth_25epochs.pth", "arch": "3-Layer"},
+    "SmallData+Aug+25Epoch (3-Layer CNN trained by dataset 100+100)":  {"path": "models/100_3depth_25epochs(A).pth", "arch": "3-Layer"},
+    "SmallData+Aug+40Epoch (3-Layer CNN trained by dataset 100+100)":  {"path": "models/100_3depth_40epochs(A).pth", "arch": "3-Layer"},
 }
 
 selected_model_name = st.sidebar.selectbox("Choose a model", list(model_options.keys()))
