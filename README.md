@@ -9,6 +9,8 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
+![screenshot](https://jameswang.in/img/fake_detection.webp)
+
 ## 📖 Introduction (项目介绍)
 
 AI image models often misinterpret transparent backgrounds as gray-white or black-gray checkerboard patterns, resulting in images that lack a genuine alpha channel (transparency). This project aims to use **Convolutional Neural Networks (CNNs)** to identify the features of these "pseudo-transparent" images. The project has two primary objectives: first, to serve as an initial image filtering step for subsequent automatic background removal applications; and second, to explore the impact of different network depths, dataset sizes, and data processing strategies on model training.
