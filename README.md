@@ -9,7 +9,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
-![screenshot](https://telegraph-image-92x.pages.dev/file/d8a07128a36f437a73a0d-76b4a7e1f7dcbc4c9a.png)
+![screenshot](https://youke3.picui.cn/s1/2026/01/09/696105faef555.png)
 
 ## 📖 Introduction (项目介绍)
 
